@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/DB" auth="Container"
+              type="javax.sql.DataSource"
+              username="sa" password="sa"
+              driverClassName="org.hsqldb.jdbc.JDBCDriver"
+              url="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TestTomcatJNDIwithHibernateAndJAXRS/db/DB"/>
+</Context>

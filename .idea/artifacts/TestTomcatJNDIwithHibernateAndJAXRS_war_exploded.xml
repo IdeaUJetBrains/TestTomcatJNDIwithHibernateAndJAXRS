@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TestTomcatJNDIwithHibernateAndJAXRS:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestTomcatJNDIwithHibernateAndJAXRS_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TestTomcatJNDIwithHibernateAndJAXRS/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TestTomcatJNDIwithHibernateAndJAXRS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Jersey-2.2" />
+          <element id="library" level="application" name="hsqldb" />
+          <element id="library" level="application" name="Hibernate5.2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

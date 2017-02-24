@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
 
-    <persistence-unit name="Messaging">
+    <persistence-unit name="JPA_Unit">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!--<mapping-file>entity/orm/Bus.xml</mapping-file>-->
         <class>entity.Entitybus</class>
         <properties>
             <!--<property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TestTomcatJNDIwithHibernateAndJAXRS/db/DB"/>-->

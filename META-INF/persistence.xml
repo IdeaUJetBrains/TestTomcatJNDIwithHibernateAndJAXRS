@@ -6,14 +6,16 @@
         <!--<mapping-file>entity/orm/Bus.xml</mapping-file>-->
         <class>entity.Entitybus</class>
         <properties>
-            <!--<property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TestTomcatJNDIwithHibernateAndJAXRS/db/DB"/>-->
-            <!--<property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>-->
-            <!--<property name="hibernate.connection.username" value="sa"/>-->
-            <!--<property name="hibernate.connection.password" value="sa"/>-->
-            <property name="hibernate.show_sql" value="true"/>
-            <property name="hibernate.format_sql" value="true"/>
+            <!--<property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TestTomcatJNDIwithHibernateAndJAXRS/db/DB"/>
+            <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value="sa"/>-->
 
             <property name="hibernate.connection.datasource" value="java:comp/env/jdbc/DB" />
+
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" />
         </properties>
     </persistence-unit>

@@ -13,7 +13,6 @@
       <root url="jar://$PROJECT_DIR$/lib/javax.servlet-api-3.0.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/guava-14.0.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/osgi-resource-locator-1.0.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/persistence-api-1.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/validation-api-1.1.0.Final.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/org.osgi.core-4.2.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jersey-server.jar!/" />

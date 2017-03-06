@@ -72,6 +72,7 @@ Add into web/WEB-INF/web.xml jax-rs data and add info about DB described in the 
 
 7. Go to the ProjectSettings->Modules->Libs->Jersey
    Press "Change version" button-> add all the Jersey libs
+   (Note: delete unnecessary javax.persistence.jar if it is already present)
 
 8. Add all requered libs into artifact ProjectSettings->Modules->Artifacts
 
